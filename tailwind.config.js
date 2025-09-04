@@ -1,4 +1,10 @@
-tailwind.config = {
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./index.html",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -33,5 +39,6 @@ tailwind.config = {
         'fade-in-scale': 'fade-in-scale 0.2s ease-out forwards',
       }
     }
-  }
+  },
+  plugins: [],
 }

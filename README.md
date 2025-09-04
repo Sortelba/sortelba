@@ -1,38 +1,47 @@
 # SORTELS MATRIX
 
-This is the codebase for the SORTELS MATRIX website, a futuristic hub for the skateboarding community.
+This is the codebase for the SORTELS MATRIX website, a futuristic hub for the skateboarding community. This project is built with React and Vite.
 
 ## Project Structure
 
-The project is structured to be clean, scalable, and easy to maintain.
-
-- **/public**: Contains all static assets like images. Place your images in `/public/images`.
-- **(src)** (implied structure, contains all `.tsx` files):
-  - **/components**: Reusable React components used across multiple pages (e.g., Header, Footer).
-  - **/data**: Centralized data files. This is where you edit content like news, alliance partners, or events.
-  - **/pages**: Top-level components that represent a full page of the application.
-  - `App.tsx`: The main application component, handling routing.
-  - `index.tsx`: The entry point that renders the React app.
-- `index.html`: The main HTML file.
-- `index.css`: Global styles and custom CSS.
-- `tailwind.config.js`: Configuration file for the Tailwind CSS framework.
+- **/public**: Contains all static assets like images, which are copied directly to the output directory.
+- **(root)**: Contains all source files (`.tsx`), components, pages, and data files.
+  - **/components**: Reusable React components.
+  - **/data**: Centralized data files for content like news, partners, or events.
+  - **/pages**: Top-level components representing a full page.
+- `index.html`: The main HTML template.
+- `index.css`: Global styles, including Tailwind CSS imports.
+- `vite.config.ts`: Configuration for the Vite build tool.
+- `tailwind.config.js`: Configuration for the Tailwind CSS framework.
 - `package.json`: Project metadata and dependencies.
-- `netlify.toml`: **Important:** This file contains the deployment settings for Netlify, preventing build errors.
+- `netlify.toml`: Deployment settings for Netlify.
 
 ## How to Add or Change Content
 
 - **Alliance Partners, Mags, Vereine, etc.**: Open `data/alliance.ts` and edit the `allianceData` array.
 - **System Announcements (News)**: Open `data/announcements.ts` and edit the `announcementData` array.
 - **Events**: Open `data/events.ts` and edit the `events` object.
-- **Images**: Upload your images to the `public/images` folder. Then, in the data files, reference them with a path like `/images/your-image.jpg`.
+- **Images**: Place your images in the `/public/images` folder. Then, in the data files, reference them with a path like `/images/your-image.jpg`.
+
+## Local Development
+
+1.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+2.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    ```
+    This will start a local server, typically at `http://localhost:5173`. The site will automatically reload when you make changes to the code.
 
 ## Deployment with Netlify
 
-This project is perfectly set up for deployment on Netlify. Here's how to do it:
+This project is perfectly set up for deployment on Netlify.
 
 1.  **Push to GitHub:**
     - Create a new repository on your GitHub account.
-    - Upload all the files from this project (including the new `netlify.toml`) to your new repository.
+    - Upload all project files to the new repository.
 
 2.  **Connect to Netlify:**
     - Sign up for a free account at [Netlify.com](https://www.netlify.com/), preferably by connecting your GitHub account.
@@ -40,13 +49,13 @@ This project is perfectly set up for deployment on Netlify. Here's how to do it:
     - Select your GitHub repository.
 
 3.  **Build Settings:**
-    - Netlify will automatically read the `netlify.toml` file. You should not need to enter any build settings manually. The settings are:
-    - **Build command:** `(set in netlify.toml)`
-    - **Publish directory:** `(set in netlify.toml)`
+    - Netlify will automatically detect that you have a `netlify.toml` file and use its settings. You shouldn't need to change anything, but for confirmation, the settings should be:
+      - **Build command:** `npm run build`
+      - **Publish directory:** `dist`
     - Click **"Deploy site"**.
 
 4.  **Connect Your Domain:**
-    - Once the site is deployed, go to the "Domain settings" for your new site in Netlify.
-    - Click "Add a domain" and follow the instructions to connect your `sortelba.de` domain. This usually involves changing the nameservers at the place where you bought your domain.
+    - Once the site is deployed, go to "Domain settings" for your new site in Netlify.
+    - Click "Add a domain" and follow the instructions to connect your domain.
 
-That's it! Every time you push a change to your GitHub repository, Netlify will automatically redeploy your website with the latest updates.
+That's it! Every time you push a change to your GitHub repository, Netlify will automatically build and deploy your website with the latest updates.
