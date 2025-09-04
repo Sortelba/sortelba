@@ -17,6 +17,7 @@ The project is structured to be clean, scalable, and easy to maintain.
 - `index.css`: Global styles and custom CSS.
 - `tailwind.config.js`: Configuration file for the Tailwind CSS framework.
 - `package.json`: Project metadata and dependencies.
+- `netlify.toml`: **Important:** This file contains the deployment settings for Netlify, preventing build errors.
 
 ## How to Add or Change Content
 
@@ -31,7 +32,7 @@ This project is perfectly set up for deployment on Netlify. Here's how to do it:
 
 1.  **Push to GitHub:**
     - Create a new repository on your GitHub account.
-    - Upload all the files from this project to your new repository.
+    - Upload all the files from this project (including the new `netlify.toml`) to your new repository.
 
 2.  **Connect to Netlify:**
     - Sign up for a free account at [Netlify.com](https://www.netlify.com/), preferably by connecting your GitHub account.
@@ -39,12 +40,13 @@ This project is perfectly set up for deployment on Netlify. Here's how to do it:
     - Select your GitHub repository.
 
 3.  **Build Settings:**
-    - Netlify will ask for build settings. For this project, you can leave them at their default or blank values, as there is no complex build step.
-    - **Publish directory:** `.` (a single dot) or leave it blank.
+    - Netlify will automatically read the `netlify.toml` file. You should not need to enter any build settings manually. The settings are:
+    - **Build command:** `(set in netlify.toml)`
+    - **Publish directory:** `(set in netlify.toml)`
     - Click **"Deploy site"**.
 
 4.  **Connect Your Domain:**
     - Once the site is deployed, go to the "Domain settings" for your new site in Netlify.
     - Click "Add a domain" and follow the instructions to connect your `sortelba.de` domain. This usually involves changing the nameservers at the place where you bought your domain.
 
-That's it! Every time you push a change (like adding a new image or a new partner) to your GitHub repository, Netlify will automatically redeploy your website with the latest updates.
+That's it! Every time you push a change to your GitHub repository, Netlify will automatically redeploy your website with the latest updates.
