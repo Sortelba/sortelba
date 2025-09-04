@@ -211,21 +211,21 @@ export const allianceData: AlliancePartner[] = [
     },
     {
         name: 'Razed Skateboarding Club Schwaben e. V. (Bayern)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'Impossible e. V. (Brandenburg)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'Concrete Skate e. V. (Hessen)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
@@ -246,28 +246,28 @@ export const allianceData: AlliancePartner[] = [
     },
     {
         name: 'Skateboardingvulkaneifel e. V. (Rheinland-Pfalz)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'Saar Skateboarding e. V. (Saarland)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'urban souls e. V. (Sachsen)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'Von der Rolle e. V. (Sachsen-Anhalt)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
