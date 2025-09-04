@@ -1,4 +1,3 @@
-
 export type AllianceCategory = 'skate-shops' | 'brands' | 'vereine' | 'skate-youtuber' | 'skatemags' | 'gute-produkte';
 
 export interface AlliancePartner {
@@ -196,7 +195,7 @@ export const allianceData: AlliancePartner[] = [
     },
     {
         name: 'Backyard e. V. (Oldenburg)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
@@ -345,12 +344,12 @@ export const allianceData: AlliancePartner[] = [
         name: 'Boardstation Skate Mag',
         image: 'https://images.unsplash.com/photo-1519741054323-50810c973510?q=80&w=800&auto=format&fit=crop',
         description: 'News rund ums skaten ! ',
-        link: 'https://www.limitedmag.de/',
+        link: 'http://www.boardstation.de/',
         category: 'skatemags'
     },
     {
         name: 'Confusion Magazine',
-        image: 'https://images.unsplash.com/photo-1473992388998-35a09212a456?q=80&w=800&auto=format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1473998-35a09212a456?q=80&w=800&auto=format&fit=crop',
         description: 'International Skateboard Magazine.',
         link: 'https://www.confuzine.com/',
         category: 'skatemags'
