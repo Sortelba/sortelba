@@ -232,14 +232,14 @@ export const allianceData: AlliancePartner[] = [
     },
     {
         name: 'Rügen Rollt e. V. (Meck-Vorpommern)',
-        image: '#',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
     },
     {
         name: 'Rollbrett Union e. V. Mönchengladbach (NRW)',
-        image: '#',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
@@ -274,7 +274,7 @@ export const allianceData: AlliancePartner[] = [
     },
     {
         name: 'Bretterbude e. V. (Thüringen)',
-        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto-format&fit=crop',
+        image: 'https://images.unsplash.com/photo-1599229891639-2d4e613f1c30?q=80&w=800&auto=format&fit=crop',
         description: 'Lokaler Skateboard Verein. Unterstützt die Szene vor Ort.',
         link: '#',
         category: 'vereine'
