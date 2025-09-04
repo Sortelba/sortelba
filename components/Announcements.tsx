@@ -1,3 +1,4 @@
+
 import React from 'react';
 import SectionWindow from './SectionWindow';
 import { PageProps } from '../App';

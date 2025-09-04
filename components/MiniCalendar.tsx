@@ -1,3 +1,4 @@
+
 import React, { useMemo } from 'react';
 import SectionWindow from './SectionWindow';
 import { events } from '../data/events';

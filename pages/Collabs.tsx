@@ -1,3 +1,4 @@
+
 import React, { useState, useMemo } from 'react';
 import SectionWindow from '../components/SectionWindow';
 import { allianceData, categories, AllianceCategory } from '../data/alliance';

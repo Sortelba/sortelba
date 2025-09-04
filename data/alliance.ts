@@ -1,3 +1,4 @@
+
 // FIX: Added 'gute-produkte' to the AllianceCategory type to allow for the new category.
 export type AllianceCategory = 'skate-shops' | 'brands' | 'vereine' | 'skate-youtuber' | 'skatemags' | 'gute-produkte';
 

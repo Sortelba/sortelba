@@ -1,3 +1,4 @@
+
 import { PageProps } from "../App";
 
 export interface AnnouncementArticle {
