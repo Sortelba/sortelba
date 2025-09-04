@@ -1,0 +1,20 @@
+{
+  "name": "sortels-matrix",
+  "version": "1.0.0",
+  "description": "Futuristic Cyberpunk Skateboard Hub",
+  "private": true,
+  "scripts": {
+    "start": "echo \"This project runs in a no-bundle environment. Open index.html in a live server.\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "author": "SORTELS MATRIX",
+  "license": "UNLICENSED"
+}
