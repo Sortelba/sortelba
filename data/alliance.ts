@@ -1,5 +1,4 @@
 
-// FIX: Added 'gute-produkte' to the AllianceCategory type to allow for the new category.
 export type AllianceCategory = 'skate-shops' | 'brands' | 'vereine' | 'skate-youtuber' | 'skatemags' | 'gute-produkte';
 
 export interface AlliancePartner {
@@ -16,7 +15,6 @@ export const categories: {id: AllianceCategory, name: string}[] = [
     { id: 'vereine', name: 'SKATE VEREINE' },
     { id: 'skate-youtuber', name: 'SKATE YOUTUBER' },
     { id: 'skatemags', name: 'SKATEMAGS' },
-    // FIX: Changed the id from 'GUTE PRODUKTE' to 'gute-produkte' to match the updated AllianceCategory type.
     { id: 'gute-produkte', name: 'GUTE PRODUKTE' },
 ];
 
